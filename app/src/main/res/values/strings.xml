@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RadioApp</string>
+    <string name="stop">Stop</string>
+    <string name="play">Play</string>
+    <string name="music_is_life">Music is life</string>
+    <string name="stop_button">Stop button</string>
+    <string name="play_button">Play Button</string>
+</resources>
