@@ -78,7 +78,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void initializeMediaPlayer() {
         player = new MediaPlayer();
         try {
-            player.setDataSource("http://icestream.coolwazobiainfo.com:8000/wazobia-abuja");
+//            player.setDataSource("http://23.227.186.10:80/1816_128");
+//            player.setDataSource("http://78.31.65.20:8080/dance.mp3");
+            player.setDataSource("http://s25.myradiostream.com:15102/listen.mp3");
         } catch (IllegalArgumentException | IllegalStateException | IOException e) {
             e.printStackTrace();
         }
